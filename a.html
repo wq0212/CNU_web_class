@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+    <style>
+        .cun_red{
+            color: red;
+        }
+        .btn_register{
+            background-color: red;
+            border: 1px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <span class="cun_red">cnu</span>
+    <span>cnu</span>
+    <span>cnu</span>
+    <span>cnu</span>
+    <div>
+        <div class="">서강대</div>
+        <div class="">ㅎㅇ</div>
+        <div class="">ㅂㅇ</div>
+    </div>
+    <button class="btn_register" onclick="onRegisterButton()">회원가입</button>
+    <script>
+        function onRegisterButton(){
+            //기능
+
+            var tmp = document.querySelector(".btn_register")
+            console.log(tmp)
+            tmp.style.color = "blue";
+            alert("정상적 신청 굿")
+        }
+    </script>
+</body>
+</html>
