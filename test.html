@@ -6,7 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>회원가입</title>
     <style>
-
+        .wrap{
+            width: 200px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        input{
+            width: 200px;
+            height: 30px;
+            padding-left: 10px;
+        }
     </style>
 
 </head>
@@ -15,15 +24,15 @@
         <form action="http://localhost:8000/get-data" method="POST">
             <div>
                 <label>
-                    <span>아이디</span>
-                    <input type="text" name="user_id"/>
+                    <div>아이디</div>
+                    <input type="text" name="user_id" placeholder="아이디를 입력해주세요."/>
                 </label>
                 
             </div>
             <div>
                 <label>
-                    <span>비밀번호</span>
-                    <input type="password" name="user_pw"/>
+                    <div>비밀번호</div>
+                    <input type="password" name="user_pw" placeholder="비밀번호를 입력해주세요."/>
                 </label>
                 
             </div>
